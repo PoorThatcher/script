@@ -13,3 +13,14 @@ crontab -e
 
 # 30 4 * * * /bin/bash /root/back_docker.sh > /dev/null 2>&1
 ```
+
+3. Time zone set
+``` bash 
+timedatectl
+
+timedatectl list-timezones | grep -i shang
+
+timedatectl set-timezone Asia/Shanghai
+```
+
+

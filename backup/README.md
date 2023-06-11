@@ -23,4 +23,13 @@ timedatectl list-timezones | grep -i shang
 timedatectl set-timezone Asia/Shanghai
 ```
 
+4. Tip
+``` bash
+# Use data
+sudo -i
+# example
+tar -zxvf /root/data/docker-data/bitwarden/backup.tar
+
+```
+
 
